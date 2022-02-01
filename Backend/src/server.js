@@ -6,7 +6,7 @@ const routes = require('./routes');
 
 const server = express();
 
-mongoose.connect('mongodb+srv://cotacao:cotacao@cluster0.ycbog.mongodb.net/cotapp?retryWrites=true&w=majority', {
+mongoose.connect('server', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
